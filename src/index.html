@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conway's Evolved game of life</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS para estilos -->
+</head>
+<body>
+  <!-- Contenedor principal del juego -->
+  <div id="game-container">
+    <!-- Canvas donde se renderizará el juego -->
+    <canvas id="gameCanvas" width="96vw" height="96vh"></canvas>
+    <!-- Panel de control para mostrar información vital -->
+    <div id="control-panel">
+    </div>
+    <!-- Menús y overlays (estos estarán ocultos inicialmente y se mostrarán según sea necesario) -->
+    <div id="game-menus">
+    </div>
+    <!-- Overlays para notificaciones, tutoriales, etc. -->
+    <div id="overlays">
+      <div id="notification-overlay" class="overlay">...</div>
+      <div id="tutorial-overlay" class="overlay">...</div>
+      <!-- ... otros overlays ... -->
+    </div>
+  </div>
+  <!-- Enlazar los scripts de JavaScript -->
+  <script type="module" src="gameEngine.js"></script>
+  <script type="module" src="renderer.js"></script>
+  <script type="module" src="stateManager.js"></script>
+  <!-- <script type="module" src="audioController.js"></script> -->
+  <!-- ... otros scripts para módulos y componentes ... -->
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "conways-game-of-life-teams",
+  "version": "1.0.0",
+  "description": "An enhanced version of Conway's Game of Life featuring team competition and dynamic events",
+  "main": "./src/index.html",
+  "scripts": {
+    "start": "http-server -c-1 -p 8000 -a localhost -o",
+    "start-network": "http-server -c-1 -p 8000 -a 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "conway",
+    "game of life",
+    "javascript",
+    "html5 canvas"
+  ],
+  "author": "Oscar 'Nebe' Abad",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
