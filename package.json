@@ -4,9 +4,8 @@
   "description": "An enhanced version of Conway's Game of Life featuring team competition and dynamic events",
   "main": "./src/index.html",
   "scripts": {
-    "start": "http-server -c-1 -p 8000 -a localhost -o",
-    "start-network": "http-server -c-1 -p 8000 -a 0.0.0.0",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./src -c-1 -p 8000 -a localhost -o",
+    "start-network": "http-server ./src -c-1 -p 8000 -a 0.0.0.0"
   },
   "keywords": [
     "conway",
