@@ -1,4 +1,5 @@
-# Conway's Evolved Game of Life with Teams
+# Conway's Evolved
+### Conwayr's Game of Life with Teams and Dynamic Events
 
 ![Conway's Evolved game of life](screenshot.png)
 
